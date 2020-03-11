@@ -27,7 +27,7 @@ def main():
     userChoice = 0
     while userChoice != 4:
         print(
-            "\nWybierz co chcesz zrobic: \n1.Wygenerowac koda na podstawie pliku 'probabilities.txt'\n2.Zakodowac wiadomosc zawarta w pliku 'input.txt' do pliku 'outputCoded.txt'\n3.Rozkodowac plik 'outputCoded.txt' do pliku 'outputDecoded.txt'. \n4.Wyjsc z programu.\n    Wpisz poprostu int'a.")
+            "\nWybierz co chcesz zrobic: \n1.Wygenerowac szyfr na podstawie pliku 'probabilities.txt'\n2.Zakodowac wiadomosc zawarta w pliku 'input.txt' do pliku 'outputCoded.txt'\n3.Rozkodowac plik 'outputCoded.txt' do pliku 'outputDecoded.txt'. \n4.Wyjsc z programu.\n    Wpisz poprostu int'a.")
         userChoice = int(input())
         if userChoice == 1:
             generowanie()
